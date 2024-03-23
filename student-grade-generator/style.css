@@ -1,0 +1,10 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 70px;
+    background-image: url(/student-grade-generator/background.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
