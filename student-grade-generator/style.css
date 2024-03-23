@@ -53,5 +53,20 @@ body {
     height: 25%;
   }
 
+  button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    margin-top: 300px;
+  }
+
  
   
