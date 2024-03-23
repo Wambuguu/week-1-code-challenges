@@ -8,3 +8,47 @@ body {
     background-attachment: fixed;
     background-size: cover;
   }
+
+  #calculator {
+    margin: 20px auto;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 35px;
+    border: 4px solid black;
+    border-radius: 5px;
+    width: 400px;
+    height: 170px;
+  }
+  
+  h2 {
+    font-weight: bold;
+    font-size: large;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  #marks {
+    font-weight: bold;
+    font-size: large;
+    width: 97%;
+    height: 15%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+   background: transparent; 
+  }
+  
+  #grade-result {
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 97%;
+    padding: 5px;
+    padding-top: 10px;
+    height: 25%;
+  }
