@@ -16,3 +16,47 @@ body {
     width: 500px;
     gap: 10px;
   }
+
+  h3 {
+    margin-top: 10px;
+    margin-left: 12px; 
+    font-weight: bold;
+  }
+
+  input {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    margin-left: 12px;
+  }
+
+  button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: 170px;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    color: blue; 
+  }
+  
+  #results {
+    margin-top: 20px auto;
+    margin-left: 39px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 400px;
+    height: 150px;
+  }
+  
+  footer {
+    margin-top: 350px;
+    text-align: center;
+  }
