@@ -10,6 +10,6 @@ These projects showcase basic functionalities of web development using the menti
 
 ## Technologies Used:
 
-HTML: Defines the structure and content of the web pages.
-CSS: Styles the visual presentation of the elements.
-JavaScript: Adds interactivity and dynamic behavior.
+- HTML: Defines the structure and content of the web pages.
+- CSS: Styles the visual presentation of the elements.
+- JavaScript: Adds interactivity and dynamic behavior.

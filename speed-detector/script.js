@@ -23,5 +23,3 @@ function checkSpeed() {
     pointsElement.textContent = `Points: ${deductionPoints}`;
   }
 }
-
-
