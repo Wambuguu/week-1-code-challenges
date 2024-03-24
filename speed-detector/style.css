@@ -51,3 +51,15 @@ body {
     height: 20%;
   }
   
+  button {
+    background-color: rgba(0, 255, 255, 0.493);
+  }
+  
+  button:hover {
+    color: blue;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 335px;
+  }
