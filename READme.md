@@ -15,7 +15,7 @@ This program takes a car's speed as input and indicates whether it's within the 
 This program calculates an employee's net salary after considering deductions like taxes and benefits.
 
 ## Live Link
-
+[https://wambuguu.github.io/week-1-code-challenges/]
 
 These projects showcase basic functionalities of web development using the mentioned technologies.
 
