@@ -1,6 +1,8 @@
-# WEEK 1 CODE CHALLENGES
+# TITLE:
 
-## What's here?
+## WEEK 1 CODE CHALLENGES
+
+## DESCRIPTION
 
 This repository contains three interactive programs built using HTML, CSS, and JavaScript:
 - Student Grade Generator
@@ -16,6 +18,12 @@ This program calculates an employee's net salary after considering deductions li
 
 ## Live Link
 [https://wambuguu.github.io/week-1-code-challenges/]
+
+## SET-UP INSTRUCTIONS
+
+1. Clone or download the repository.
+2. Open the index.html file in a web browser.
+
 
 These projects showcase basic functionalities of web development using the mentioned technologies.
 
