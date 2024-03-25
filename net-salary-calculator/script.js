@@ -1,5 +1,4 @@
-// This function calculates the net salary of an employee based on their basic salary, benefits, 
-// and various deductions (PAYE, NSSF, NHIF)
+// This function calculates the net salary of an employee based on their basic salary, benefits, and various deductions (PAYE, NSSF, NHIF)
 function calculateNetSalary() {
   // Get basic salary and benefits from user input
   const basicSalary = parseFloat(document.getElementById("basicSalary").value);
