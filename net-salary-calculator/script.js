@@ -1,15 +1,25 @@
+// This function calculates the net salary of an employee based on their basic salary, benefits, 
+// and various deductions (PAYE, NSSF, NHIF)
 function calculateNetSalary() {
+  // Get basic salary and benefits from user input
   const basicSalary = parseFloat(document.getElementById("basicSalary").value);
   const benefits = parseFloat(document.getElementById("benefits").value) || 0;
+  
+  // Calculate gross salary by adding basic salary and benefits
   const grossSalary = basicSalary + benefits;
 
+  // Calculate deductions using separate functions (PAYE, NSSF, NHIF)
   const payee = calculatePAYE(grossSalary);
   const nssfDeduction = calculateNSSF(grossSalary);
   const nhifDeduction = calculateNHIF(grossSalary);
 
+  // Calculate total deductions by summing individual deductions
   const totalDeductions = payee + nssfDeduction + nhifDeduction;
+  
+  // Calculate net salary by subtracting total deductions from gross salary
   const netSalary = grossSalary - totalDeductions;
 
+  // Get the results element from the HTML document
   const results = document.getElementById("results");
   results.innerHTML = `
       <p>Gross Salary: Ksh ${grossSalary.toFixed(2)}</p>
@@ -23,6 +33,7 @@ function calculateNetSalary() {
     `;
 }
 
+// This function calculates the Pay As You Earn (PAYE) tax based on the provided gross salary
 function calculatePAYE(grossSalary) {
   if (grossSalary > 800000) {
     return grossSalary * 0.35;
@@ -37,10 +48,12 @@ function calculatePAYE(grossSalary) {
   }
 }
 
+// This function calculates the National Social Security Fund (NSSF) deduction, which is a fixed 6% of the gross salary.
 function calculateNSSF(grossSalary) {
   return grossSalary * 0.06;
 }
 
+// This function calculates the National Hospital Insurance Fund (NHIF) deduction  
 function calculateNHIF(grossSalary) {
   if (grossSalary >= 100000) {
     return 1700;
